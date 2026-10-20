@@ -1,4 +1,4 @@
-# Subway Builder UK Generic Train Pack
+# Subway Builder UK Generic Trains Pack
 
 > [!IMPORTANT]
 > While the mod is fully supported in the current stable version of Subway Builder,
