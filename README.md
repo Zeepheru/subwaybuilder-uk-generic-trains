@@ -134,11 +134,13 @@ The net velocity-acceleration profile is then:
 a_{net}(v) = \min\left[a_{constTE}(v), a_{constPower}(v) \right] - R(v)
 ```
 
-![Acceleration graph plotting and estimation](images/acceleration_curve.png)
-
 The acceleration curve parameters (based on [OpenBVE](https://openbve-project.net/documentation/HTML/train_train_dat.html#acceleration)) for Subway Builder, (`a0`, `a`, `v1`, `v2`, `exponent`) are then tweaked manually until this new curve roughly lines up visually with the original approximation.
 
-Note that while this is probably an alright approximation for the trains that use electric motors, for the diesel-hydraulic Class 150, it likely is not.
+![Acceleration graph plotting and estimation](images/acceleration_curve.png)
+
+Example of a plot with the approximate acceleration, resistive force, net acceleration, and emulation curves.
+
+Note that while this is probably an alright approximation for the trains that use electric motors. For the diesel-hydraulic Class 150, however, it likely is not. (There is a description of its TE curve [here](https://web.archive.org/web/20221205004502/https://www.railtechnical.com/br-class-150), only textual, the image links are dead.)
 
 Sources:
 
@@ -218,7 +220,7 @@ Sources:
 As implemented in the mod, _Diesel Commuter Rail_ is _meant_ to represent the kinds of cheaper, unelectrified, low-capacity local trains that still somewhat serve a commuter role, that you can find across the UK. Something that just a few decades ago would be home to a _Pacer_.
 While in the present day, these lines are increasingly run by their larger Super/Express Sprinter brethren (or a Class 195/196/197 Civity), I am using a regular class 150 here because their 75 mph top speeds are more fitting for what this should represent. But otherwise, apart from the larger physical sizes (and costs etc.) associated with those longer-distance-oriented models, other parameters such as seat count are roughly similar.
 
-As such, out of all the implemented trains, it deviates the most from its base game equivalent. While that is a large loco-hauled commuter trainset with very poor acceleration, this is a lightweight DMU with satisfactory acceleration. While per-train operating costs are significantly decreased, per-car operating cars are high to account for individual diesel motors and transmissions under each DMU car.
+As such, out of all the implemented trains, it deviates the most from its base game equivalent. While that is a large loco-hauled commuter trainset with very poor acceleration, this is a lightweight DMU with merely satisfactory acceleration. While per-train operating costs are significantly decreased, per-car operating cars are high to account for individual diesel motors and transmissions under each DMU car.
 
 Notes regarding implemented specifications:
 
@@ -229,5 +231,3 @@ Sources:
 
 1. [Vehicle Diagram Book No. 220 for Diesel Multiple Unit Trains (Railcars)](https://web.archive.org/web/20150121172516/http://barrowmoremrg.co.uk/BRBDocuments/Book220Issue.pdf). 1988. Derby: Mechanical & Electrical Engineering Department, British Railways Board.
 2. [Class 158](https://web.archive.org/web/20210806025938/https://eversholtrail.co.uk/fleet/class-158-freight-same-category/). Archived 2021. Eversholt Rail Limited.
-
-## Sources
