@@ -1,0 +1,21 @@
+{
+  "id": "uk-generic-trains",
+  "name": "UK Generic Train Pack",
+  "description": "Replaces base game trains with a set of UK-based equivalents.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Zeepheru",
+    "url": "https://github.com/zeepheru"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": ["subway-builder", "mod", "uk", "gb"],
+  "subwayBuilderVersion": ">=1.7.0",
+  "dependencies": {
+    "subway-builder": ">=1.7.0"
+  }
+}
