@@ -65,6 +65,7 @@ In some cases, numbers are just lifted from Wikipedia, or are pure estimations (
 ### Beta Game Version Feature Support
 
 - Diesel Commuter Rail: **Yes**, see _Trains in Detail/[BETA only] Diesel Commuter Rail_
+- Tram: **No**.
 - Acceleration Curves: **Yes**, see _Design Choices/Acceleration Curves_
 - Multiple-track compatibility: Follows base game (diesel commuter trains can run on commuter rail)
 - All other beta features (track cant, detailed track compatibility and inter-running, etc.): **No**, game will load base game defaults.
