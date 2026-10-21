@@ -211,6 +211,8 @@ Sources:
 
 1. [More frequent trains and new journey options mark one year of Elizabeth line operation](https://tfl-newsroom.prgloo.com/news/more-frequent-trains-and-new-journey-options-mark-one-year-of-elizabeth-line-operation). 2023. TfL.
 2. [Class 345 Stock Information Sheet](https://foi.tfl.gov.uk/FOI-0416-2223/Class%20345%20Data%20Sheet%20ver%203.pdf). TfL.
+3. [Crossrail rolling stock contract invitations to negotiate issued](https://web.archive.org/web/20241201210758/https://www.railwaygazette.com/crossrail-rolling-stock-contract-invitations-to-negotiate-issued/36709.article). 2012. Railway Gazette International.
+4. [Layout Drawing: Unit Diagram (Full Length Unit, Class 345)](https://www.whatdotheyknow.com/request/469455/response/1126934/attach/3/Q234%20BMB%20R1%20XMO%20CR001%2050011%20Rev%203.0.pdf). Bombardier Transportation. 2018. Document 3EER400017-0764, Revision F.
 
 ### [BETA only] Diesel Commuter Rail
 
