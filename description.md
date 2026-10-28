@@ -164,7 +164,7 @@ Sources:
 The London Underground's 2009 Stock, as used on the Victoria line. These are the most modern trains (_until whenever the 2024 Stock enters service_) in service on the London Underground, and most importantly allow for the highest modelled train frequency of 36 tph [1].
 Using the S Stock from the subsurface lines was considered, but IMO using small deep-level tube trains is just more uniquely British.
 
-Compared to the base game _Heavy Metro_, this UK version is distinct in having significant smaller cars. But apart from a much lower maximum total capacity, they are balanced similarly to the base game.
+Compared to the base game _Heavy Metro_, this UK version is distinct in having significantly smaller cars. But apart from a much lower maximum total capacity, they are balanced similarly to the base game.
 
 Notes regarding implemented specifications:
 
@@ -196,7 +196,7 @@ Sources:
 
 ### Light Rail
 
-The Manchester Metrolink was chosen over other UK systems simply because it's by far the largest such network in the UK, both in terms of ridership and network size.
+The Manchester Metrolink was chosen over other UK systems simply because it's by far the largest such network in the UK, both in terms of ridership and network size. It also does have the most... "Light Rail" vibe, being, IMO, most akin to a German Stadtbahn. Plus it has high platforms, and not to mention that station underneath Manchester Piccadilly.
 
 Sources:
 
