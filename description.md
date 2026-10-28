@@ -23,38 +23,39 @@ What the mod's trains are based on:
 
 Empty cells indicate no changes made to base-game defaults. ▼ or ▲ are used where relevant to indicate whether important specifications are increased or decreased over base game trains.
 
-|                                  | `heavy-metro` | `light-metro` | `light-rail` | `commuter-rail` | `commuter-rail-diesel` |
-| -------------------------------- | ------------- | ------------- | ------------ | --------------- | ---------------------- |
-| Car Length (m)                   | 16.6          | 14            | 14.4         | 22.7            | 19.9                   |
-| Car Width (m)                    | 2.6           | 2.65          | 2.65         | 2.77            | 2.82                   |
-| Capacity/car                     | 141           | 135           | 103          | 166             | 100                    |
-| Seats/car                        | 32            | 28            | 30           | 50              | 70                     |
-| Doors/car/side                   | 3             | 2             | 2            | 3               | 2                      |
-| Min Cars                         | 4             | 2             | 2            | 4               | 2                      |
-| Max Cars                         | 16            | 8             | 10           | 12              | 8                      |
-| Cars/set                         | 1             | 2             | 2            | 1               | 2                      |
-| Max speed (mph (kph))            | 50 (80) ▼     | 40 (64) ▼     | 50 (80) ▼    | 90 (145) ▲      | 75 (121) ▼             |
-| Local Station speed (mph (kph))  | 30 (48)       | 25 (40)       | 25 (40)      | 90 (145)        | 75 (121)               |
-| Crossover speed (mph (kph))      | 20 (32)       | 15 (24)       | 15 (24)      | 20 (32)         | 20 (32)                |
-| Yard speed (mph (kph))           | 10 (16)       | 10 (16)       | 10 (16)      | 15 (24)         | 15 (24)                |
-| Max Acceleration (m/s²)          | 1.3 ▲         | 1.4 ▲         | 1.08 ▼       | 1.0 ▲           | 0.8 ▲                  |
-| Max Deceleration (m/s²)          | 1.14 ▲        | 0.8 ▼         | 1.03 ▼       | 0.9 ▼           | 0.6 ▼                  |
-| Max Gradient (%)                 |               |               | 6.5          |                 |                        |
-| Min Curve Radius (m)             |               |               | 15           |                 | 70                     |
-| TPH Limit                        | 36 ▼          | 36 ▼          |              | 24 ▼            | 16 ▼                   |
-| Parallel Track Spacing (m)       | 3.2           | 3.3           | 3.3          | 3.4             | 3.4                    |
-| Track Clearance (m)              | 1             | 1.2           | 1.2          | 1.2             | 1.2                    |
-| Car Cost ($M)                    | 1.5 ▼         | 1.2 ▼         | 1.6 ▼        | 5.5 ▲           | 2.7 ▼                  |
-| Train Operating Cost/hr ($)      | 220 ▼         | 140 ▼         | 210 ▼        | 600 ▲           | 450 ▼                  |
-| Car Operating Cost/hr ($)        | 14 ▼          | 14 ▼          | 25 ▲         | 63 ▲            | 50 ▲                   |
-| Base Track Cost ($M)             | 29 ▼          | 27 ▼          |              |                 |                        |
-| Base Station Cost ($M)           |               |               |              |                 | 48 ▼                   |
-| Scissor Crossover Cost ($M)      |               |               |              |                 |                        |
-| Track Operating Cost/m ($)       | 340 ▼         | 250 ▼         |              |                 | 270 ▼                  |
-| Station Operating Cost/yr ($k)   | 300 ▼         |               |              |                 | 280 ▼                  |
-| Level Crossing TPH Limit, Major  |               |               |              | 16 ▲            | 16 ▲                   |
-| Level Crossing TPH Limit, Medium |               |               |              | 20 ▲            | 20 ▲                   |
-| Level Crossing TPH Limit, Minor  |               |               |              | 20 ▲            | 20 ▲                   |
+<table>
+   <tr><th></th><th>`heavy-metro`</th><th>`light-metro`</th><th>`light-rail`</th><th>`commuter-rail`</th><th>`commuter-rail-diesel`</th><th></th></tr>
+   <tr><td>Car Length (m)</td><td>16.6</td><td>14</td><td>14.4</td><td>22.7</td><td>19.9</td><td></td></tr>
+   <tr><td>Car Width (m)</td><td>2.6</td><td>2.65</td><td>2.65</td><td>2.77</td><td>2.82</td><td></td></tr>
+   <tr><td>Capacity/car</td><td>141</td><td>135</td><td>103</td><td>166</td><td>100</td><td></td></tr>
+   <tr><td>Seats/car</td><td>32</td><td>28</td><td>30</td><td>50</td><td>70</td><td></td></tr>
+   <tr><td>Doors/car/side</td><td>3</td><td>2</td><td>2</td><td>3</td><td>2</td><td></td></tr>
+   <tr><td>Min Cars</td><td>4</td><td>2</td><td>2</td><td>4</td><td>2</td><td></td></tr>
+   <tr><td>Max Cars</td><td>16</td><td>8</td><td>10</td><td>12</td><td>8</td><td></td></tr>
+   <tr><td>Cars/set</td><td>1</td><td>2</td><td>2</td><td>1</td><td>2</td><td></td></tr>
+   <tr><td>Max speed (mph (kph))</td><td>50 (80) ▼</td><td>40 (64) ▼</td><td>50 (80) ▼</td><td>90 (145) ▲</td><td>75 (121) ▼</td><td></td></tr>
+   <tr><td>Local Station speed (mph (kph))</td><td>30 (48)</td><td>25 (40)</td><td>25 (40)</td><td>90 (145)</td><td>75 (121)</td><td></td></tr>
+   <tr><td>Crossover speed (mph (kph))</td><td>20 (32)</td><td>15 (24)</td><td>15 (24)</td><td>20 (32)</td><td>20 (32)</td><td></td></tr>
+   <tr><td>Yard speed (mph (kph))</td><td>10 (16)</td><td>10 (16)</td><td>10 (16)</td><td>15 (24)</td><td>15 (24)</td><td></td></tr>
+   <tr><td>Max Acceleration (m/s²)</td><td>1.3 ▲</td><td>1.4 ▲</td><td>1.08 ▼</td><td>1.0 ▲</td><td>0.8 ▲</td><td></td></tr>
+   <tr><td>Max Deceleration (m/s²)</td><td>1.14 ▲</td><td>0.8 ▼</td><td>1.03 ▼</td><td>0.9 ▼</td><td>0.6 ▼</td><td></td></tr>
+   <tr><td>Max Gradient (%)</td><td></td><td></td><td>6.5</td><td></td><td></td><td></td></tr>
+   <tr><td>Min Curve Radius (m)</td><td></td><td></td><td>15</td><td></td><td>70</td><td></td></tr>
+   <tr><td>TPH Limit</td><td>36 ▼</td><td>36 ▼</td><td></td><td>24 ▼</td><td>16 ▼</td><td></td></tr>
+   <tr><td>Parallel Track Spacing (m)</td><td>3.2</td><td>3.3</td><td>3.3</td><td>3.4</td><td>3.4</td><td></td></tr>
+   <tr><td>Track Clearance (m)</td><td>1</td><td>1.2</td><td>1.2</td><td>1.2</td><td>1.2</td><td></td></tr>
+   <tr><td>Car Cost ($M)</td><td>1.5 ▼</td><td>1.2 ▼</td><td>1.6 ▼</td><td>5.5 ▲</td><td>2.7 ▼</td><td></td></tr>
+   <tr><td>Train Operating Cost/hr ($)</td><td>220 ▼</td><td>140 ▼</td><td>210 ▼</td><td>600 ▲</td><td>450 ▼</td><td></td></tr>
+   <tr><td>Car Operating Cost/hr ($)</td><td>14 ▼</td><td>14 ▼</td><td>25 ▲</td><td>63 ▲</td><td>50 ▲</td><td></td></tr>
+   <tr><td>Base Track Cost ($M)</td><td>29 ▼</td><td>27 ▼</td><td></td><td></td><td></td><td></td></tr>
+   <tr><td>Base Station Cost ($M)</td><td></td><td></td><td></td><td></td><td>48 ▼</td><td></td></tr>
+   <tr><td>Scissor Crossover Cost ($M)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+   <tr><td>Track Operating Cost/m ($)</td><td>340 ▼</td><td>250 ▼</td><td></td><td></td><td>270 ▼</td><td></td></tr>
+   <tr><td>Station Operating Cost/yr ($k)</td><td>300 ▼</td><td></td><td></td><td></td><td>280 ▼</td><td></td></tr>
+   <tr><td>Level Crossing TPH Limit, Major</td><td></td><td></td><td></td><td>16 ▲</td><td>16 ▲</td><td></td></tr>
+   <tr><td>Level Crossing TPH Limit, Medium</td><td></td><td></td><td></td><td>20 ▲</td><td>20 ▲</td><td></td></tr>
+   <tr><td>Level Crossing TPH Limit, Minor</td><td></td><td></td><td></td><td>20 ▲</td><td>20 ▲</td><td></td></tr>
+</table>
 
 Some notes:
 
