@@ -204,7 +204,7 @@ Sources:
 
 ### (Electric) Commuter Rail
 
-While notionally based on the Class 345 of the Elizabeth Line (_it's the most highly marketable one after all_), this implementation seeks to generally represent a modern high-intensity commuter train, like you would find across London and the Southeast, which includes the Elizabeth Line but also the London Overground and Thameslink, as well as other operators' suburban commuter system. Maximum performance is pegged against the Elizabeth Line.
+While notionally based on the Class 345 of the Elizabeth Line (_it's the most highly marketable one after all_), this implementation seeks to generally represent a modern high-intensity commuter train, like you would find across London and the Southeast, which includes the Elizabeth Line but also the London Overground and Thameslink, as well as other operators' suburban commuter systems. Maximum performance is pegged against the Elizabeth Line.
 
 The main downside of this implementation of _(Electric) Commuter Rail_ however, is that it is not representative of rail commuter systems outside London and the South, that operate under less intense requirements (much more seating, for instance). _Ideally, there would be an "Metro-like Heavy Rail" type that S-Bahns, the RER, equivalent East Asian systems, and the Elizabeth line slot into. But without that, Commuter Rail will just have to do._
 
