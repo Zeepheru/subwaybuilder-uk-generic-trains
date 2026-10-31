@@ -7,7 +7,7 @@ While the mod is fully supported in the current stable version of Subway Builder
 certain features (and one train) included in this mod are only found in the **Beta build** of the game.
 :::
 
-This description is a near-exact copy of the README on the mod's [Github Repo](https://github.com/Zeepheru/subwaybuilder-uk-generic-trains).
+This description is a near-exact copy of the README on the mod's [Github Repo](https://github.com/Zeepheru/subwaybuilder-uk-generic-trains). Accurate as of mod version 1.0.1.
 
 ![mod cover image](https://raw.githubusercontent.com/Zeepheru/subwaybuilder-uk-generic-trains/refs/heads/main/images/mod_cover.png)
 
@@ -21,7 +21,7 @@ What the mod's trains are based on:
 - `commuter-rail`: Class 345, Elizabeth Line
 - [BETA only] `commuter-rail-diesel`: Very roughly a Sprinter, to be specific a Class 150
 
-Empty cells indicate no changes made to base-game defaults. ▼ or ▲ are used where relevant to indicate whether important specifications are increased or decreased over base game trains.
+Empty cells indicate no changes made to base-game defaults. ▼ ▲ = are used where relevant to indicate whether important specifications are increased, decreased, or identical, compared to base game trains.
 
 <table>
    <tr><th></th><th>`heavy-metro`</th><th>`light-metro`</th><th>`light-rail`</th><th>`commuter-rail`</th><th>`commuter-rail-diesel`</th><th></th></tr>
@@ -45,8 +45,8 @@ Empty cells indicate no changes made to base-game defaults. ▼ or ▲ are used 
    <tr><td>Parallel Track Spacing (m)</td><td>3.2</td><td>3.3</td><td>3.3</td><td>3.4</td><td>3.4</td><td></td></tr>
    <tr><td>Track Clearance (m)</td><td>1</td><td>1.2</td><td>1.2</td><td>1.2</td><td>1.2</td><td></td></tr>
    <tr><td>Car Cost ($M)</td><td>1.5 ▼</td><td>1.2 ▼</td><td>1.6 ▼</td><td>5.5 ▲</td><td>2.7 ▼</td><td></td></tr>
-   <tr><td>Train Operating Cost/hr ($)</td><td>220 ▼</td><td>140 ▼</td><td>210 ▼</td><td>600 ▲</td><td>450 ▼</td><td></td></tr>
-   <tr><td>Car Operating Cost/hr ($)</td><td>14 ▼</td><td>14 ▼</td><td>25 ▲</td><td>63 ▲</td><td>50 ▲</td><td></td></tr>
+   <tr><td>Train Operating Cost/hr ($)</td><td>220 ▼</td><td>140 ▼</td><td>210 ▼</td><td>530 ▲</td><td>410 ▼</td><td></td></tr>
+   <tr><td>Car Operating Cost/hr ($)</td><td>14 ▼</td><td>14 ▼</td><td>25 ▲</td><td>50 ▲</td><td>45 ▲</td><td></td></tr>
    <tr><td>Base Track Cost ($M)</td><td>29 ▼</td><td>27 ▼</td><td></td><td></td><td></td><td></td></tr>
    <tr><td>Base Station Cost ($M)</td><td></td><td></td><td></td><td></td><td>48 ▼</td><td></td></tr>
    <tr><td>Scissor Crossover Cost ($M)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>

@@ -178,6 +178,9 @@ def process_key_value(key: str, value):
 
     for suffix, coeff in SUFFIX_UNIT_COEFFS.items():
         if key.endswith(suffix):
+            if value is None or value == "":
+                return key, value
+            
             return key.split("_")[0], value * coeff
 
     print(f"Warning: unrecognized suffix for csv key: {key}")

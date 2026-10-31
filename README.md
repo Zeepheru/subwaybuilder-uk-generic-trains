@@ -18,7 +18,7 @@ What the mod's trains are based on:
 - `commuter-rail`: Class 345, Elizabeth Line
 - [BETA only] `commuter-rail-diesel`: Very roughly a Sprinter, to be specific a Class 150
 
-Empty cells indicate no changes made to base-game defaults. ▼ or ▲ are used where relevant to indicate whether important specifications are increased or decreased over base game trains.
+Empty cells indicate no changes made to base-game defaults. ▼ ▲ = are used where relevant to indicate whether important specifications are increased, decreased, or identical, compared to base game trains.
 
 |                                  | `heavy-metro` | `light-metro` | `light-rail` | `commuter-rail` | `commuter-rail-diesel` |
 | -------------------------------- | ------------- | ------------- | ------------ | --------------- | ---------------------- |
@@ -42,8 +42,8 @@ Empty cells indicate no changes made to base-game defaults. ▼ or ▲ are used 
 | Parallel Track Spacing (m)       | 3.2           | 3.3           | 3.3          | 3.4             | 3.4                    |
 | Track Clearance (m)              | 1             | 1.2           | 1.2          | 1.2             | 1.2                    |
 | Car Cost ($M)                    | 1.5 ▼         | 1.2 ▼         | 1.6 ▼        | 5.5 ▲           | 2.7 ▼                  |
-| Train Operating Cost/hr ($)      | 220 ▼         | 140 ▼         | 210 ▼        | 600 ▲           | 450 ▼                  |
-| Car Operating Cost/hr ($)        | 14 ▼          | 14 ▼          | 25 ▲         | 63 ▲            | 50 ▲                   |
+| Train Operating Cost/hr ($)      | 220 ▼         | 140 ▼         | 210 ▼        | 530 ▲           | 410 ▼                  |
+| Car Operating Cost/hr ($)        | 14 ▼          | 14 ▼          | 25 ▲         | 50 ▲            | 45 ▲                   |
 | Base Track Cost ($M)             | 29 ▼          | 27 ▼          |              |                 |                        |
 | Base Station Cost ($M)           |               |               |              |                 | 48 ▼                   |
 | Scissor Crossover Cost ($M)      |               |               |              |                 |                        |
