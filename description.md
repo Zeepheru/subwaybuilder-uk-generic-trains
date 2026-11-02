@@ -62,6 +62,12 @@ Some notes:
 - All values not mentioned in the above table have not been modified.
 - Track spacing/clearance: Main line (both commuter rail types) are derived from a 6 foot spacing between inner rails on parallel track (centreline distance is ~3.3 m), and 9 foot loading gauge width ([source](https://igg.org.uk/rail/2-track/02track3.htm)); Light Metro figures are from DLR track cross section documents; Others are estimated.
 - Only max speeds can generally be found, the other speeds are estimates.
+- Standing capacities used (from respective sources):
+  - `heavy-metro`: 6 pax/m²
+  - `light-metro`: 6 pax/m²
+  - `light-rail`: 4 pax/m²
+  - `commuter-rail`: 4 pax/m²
+  - `commuter-rail-diesel`: NIL
 
 All specific sources are listed in the respective trains' sections.
 In some cases, numbers are just lifted from Wikipedia, or are pure estimations (for parameters that expectedly are not public info).
@@ -208,7 +214,7 @@ While notionally based on the Class 345 of the Elizabeth Line (_it's the most hi
 
 The main downside of this implementation of _(Electric) Commuter Rail_ however, is that it is not representative of rail commuter systems outside London and the South, that operate under less intense requirements (much more seating, for instance). _Ideally, there would be an "Metro-like Heavy Rail" type that S-Bahns, the RER, equivalent East Asian systems, and the Elizabeth line slot into. But without that, Commuter Rail will just have to do._
 
-Compared to base game _(Electric) Commuter Rail_, these trains offer a more intense version of commuter rail with: higher acceleration, higher capacities, with a higher top speed to boot. This shows in the noticeably higher operating costs of these trains.
+Compared to base game _(Electric) Commuter Rail_, these trains offer a more intense version of commuter rail with: higher acceleration, higher capacities, and a slightly higher top speed.
 
 Notes regarding implemented specifications:
 
